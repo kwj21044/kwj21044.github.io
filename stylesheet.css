@@ -1,5 +1,10 @@
 * {
-  font-family: Helvetica Neue;
+  font-family: Helvetica Neue, serif;
+}
+
+body {
+    background-image: url("bg2.png");
+    background-repeat: repeat;
 }
 
 #titlePic {
@@ -106,7 +111,35 @@ a:hover, a:active { text-decoration: none; color:black }
   text-align: center;
 }
 
+.imgType1 {
+  height: 600px;
+  /*margin: 50px 0px 50px 0px;*/
+  display: block;
+  margin: 0 auto;
+  /*border: 1px black solid;*/
+}
 
+.embvideo {
+  height: 500px;
+  width: 800px;
+  margin: 0 auto;
+  display: block;
+  autostart: false;
+  autoplay: 0;
+  preload: none;
+}
+
+.imgType2{
+  height: 500px;
+  /*margin: 50px 0px 50px 0px;*/
+  display: block;
+  margin: 0 auto;
+}
+
+.title{
+  font-weight: 600;
+  font-size: 34px;t
+}
 
 /* some anchor style experimentation */
 
